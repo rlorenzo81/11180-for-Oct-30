@@ -159,13 +159,13 @@ public class RedAutoBack extends LinearOpMode {
         // Wait for the game to start (driver presses PLAY)
         waitForStart();
 
-        gyroDrive(0.5,0.5,0.5,0.5,30, 0);
+        gyroDrive(0.5,0.5,0.5,0.5,47, 0);
 
-      //  gyroStrafeLeft(0.5, 0.5,0.5,0.5,20,0);
 
-        gyroStrafeLeft(0.5,0.5,0.5,0.5,102,0);
+        gyroStrafeLeft(0.5,0.5,0.5,0.5,67,0);
 
-        //gyroReverse(0.5,0.5,0.5,0.5,20,0);
+        gyroReverse(0.5,0.5,0.5,0.5,18,0);
+
 
 
     }
