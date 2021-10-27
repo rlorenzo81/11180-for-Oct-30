@@ -160,11 +160,11 @@ public class RedAutoFront extends LinearOpMode {
         waitForStart();
 
         gyroDrive(0.5,0.5,0.5,0.5,14, 0);
-        robotStop(1);
+        robotStop(0, 500);
         gyroStrafeLeft(0.5,0.5,0.5,0.5,37,0);
-        robotStop(1);
+        robotStop(0, 500);
         gyroDrive(0.5, 0.5, 0.5, 0.5, 10,0);
-        robotStop(1);
+        robotStop(0, 500);
 
 
     }
