@@ -159,13 +159,12 @@ public class RedAutoFront extends LinearOpMode {
         // Wait for the game to start (driver presses PLAY)
         waitForStart();
 
-        gyroDrive(0.5,0.5,0.5,0.5,30, 0);
-
-      //  gyroStrafeLeft(0.5, 0.5,0.5,0.5,20,0);
-
-        gyroStrafeRight(0.5,0.5,0.5,0.5,81,0);
-
-        //gyroReverse(0.5,0.5,0.5,0.5,20,0);
+        gyroDrive(0.5,0.5,0.5,0.5,14, 0);
+        robotStop(0.5);
+        gyroStrafeLeft(0.5,0.5,0.5,0.5,37,0);
+        robotStop(0.5);
+        gyroDrive(0.5, 0.5, 0.5, 0.5, 10,0);
+        robotStop(0.5);
 
 
     }

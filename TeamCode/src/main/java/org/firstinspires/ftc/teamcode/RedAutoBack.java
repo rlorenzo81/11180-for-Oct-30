@@ -163,7 +163,7 @@ public class RedAutoBack extends LinearOpMode {
 
       //  gyroStrafeLeft(0.5, 0.5,0.5,0.5,20,0);
 
-        gyroStrafeRight(0.5,0.5,0.5,0.5,81,0);
+        gyroStrafeLeft(0.5,0.5,0.5,0.5,102,0);
 
         //gyroReverse(0.5,0.5,0.5,0.5,20,0);
 
