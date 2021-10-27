@@ -159,11 +159,11 @@ public class BlueAutoFront extends LinearOpMode {
         // Wait for the game to start (driver presses PLAY)
         waitForStart();
 
-        gyroDrive(0.5,0.5,0.5,0.5,30, 0);
+        gyroDrive(0.5,0.5,0.5,0.5,26, 0);
 
       //  gyroStrafeLeft(0.5, 0.5,0.5,0.5,20,0);
 
-        gyroStrafeRight(0.5,0.5,0.5,0.5,38,0);
+        gyroStrafeRight(0.5,0.5,0.5,0.5,35,0);
 
         //gyroReverse(0.5,0.5,0.5,0.5,20,0);
 
